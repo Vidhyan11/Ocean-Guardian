@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap");
+.about-section {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #87ceeb, #021d2d);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px;
+}
+.about-content {
+  max-width: 800px;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+.about-content h2 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.about-content p {
+  font-size: 1.2em;
+  line-height: 1.8;
+  opacity: 0.9;
+  margin-bottom: 20px;
+}
+/* Uncomment and update src attribute with your about image path if needed */
+.about-image {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+/* Mission & Vision Section using Flexbox for proper alignment */
+.mission-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1));
+  color: #fff;
+  max-width: 1000px;
+  margin: 40px auto;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.mission-section h3 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.mission-section p {
+  font-size: 1.1em;
+  line-height: 1.7;
+  margin-bottom: 15px;
+  text-align: justify;
+  max-width: 900px;
+}
+/* Additional text block to fill the page */
+.mission-section .extra-info {
+  font-size: 1em;
+  line-height: 1.7;
+  margin-top: 20px;
+  text-align: justify;
+  max-width: 900px;
+}
