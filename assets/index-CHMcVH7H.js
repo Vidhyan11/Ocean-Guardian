@@ -601,12 +601,12 @@ Error generating stack: `+s.message+`
 
   .nav-link {
     text-decoration: none;
-    
+
     color: #ffffff;
     border-radius: 20px;
-    
+
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-    background-color:transparent;
+    background-color: transparent;
     padding: 10px;
     margin-top: 30px;
     margin-right: 100px;
@@ -641,8 +641,12 @@ Error generating stack: `+s.message+`
 `,w6=M.div`
   position: relative;
   min-height: 100vh;
-  background: linear-gradient(to bottom, rgba(9, 75, 101, 0.8), rgba(9, 75, 101, 0.6));
-  
+  background: linear-gradient(
+    to bottom,
+    rgba(9, 75, 101, 0.8),
+    rgba(9, 75, 101, 0.6)
+  );
+
   &::before {
     content: "";
     position: absolute;
@@ -754,7 +758,11 @@ Error generating stack: `+s.message+`
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7));
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.7)
+  );
   z-index: 1;
 `,Cs=[{title:"Our Mission",text:`Ocean Guardian is dedicated to protecting marine ecosystems through education, awareness, and action. Our mission is to:
 
